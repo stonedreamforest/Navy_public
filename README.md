@@ -17,19 +17,19 @@
     "supportedFunctions": ["NtCreateProcess", "NtQueryInformationProcess"],// 数据库已支持函数（数据库为支持的未显示在gui
     "NtCreateProcess": {
         "hasResult": true, // 函数是否又返回值
-        "paraCount": 8, / 函数参数（不包括返回值）
+        "paraCount": 8, / 函数参数个数（不包括返回值）
         "paras": {
             "para0": { // 函数返回结果
                 "type": "NSTATUS", // 类型
                 "name": "result", // 名称
                 "hasPreValue": false // 是否有预定义值 可参考`DB/NTDLL.JSON -> NtQueryInformationProcess`
             },
-            "para1": {
+            "para1": {// 第一个参数
                 "type": "PHANDLE",
                 "name": "ProcessHandle",
                 "hasPreValue": false
             },
-            "para2": {
+            "para2": { // 第二个参数
                 "type": "ACCESS_MASK",
                 "name": "DesiredAccess",
                 "hasPreValue": false
