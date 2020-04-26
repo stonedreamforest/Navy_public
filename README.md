@@ -14,12 +14,12 @@
 1. 示例
 ```json
 {
-    "supportedFunctions": ["NtCreateProcess", "NtQueryInformationProcess"],// 数据库已支持函数（数据库为支持的未显示在gui
+    "supportedFunctions": ["NtCreateProcess", "NtQueryInformationProcess"],// 数据库已支持函数（数据库未支持的未显示在gui
     "NtCreateProcess": {
-        "hasResult": true, // 函数是否又返回值
+        "hasResult": true, // 函数是否有返回值
         "paraCount": 8, / 函数参数个数（不包括返回值）
         "paras": {
-            "para0": { // 函数返回结果
+            "para0": { // 函数返回结果（若无也需要保留该字段
                 "type": "NSTATUS", // 类型
                 "name": "result", // 名称
                 "hasPreValue": false // 是否有预定义值 可参考`DB/NTDLL.JSON -> NtQueryInformationProcess`
