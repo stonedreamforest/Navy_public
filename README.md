@@ -205,8 +205,13 @@ NSTATUS result(0x0) __stdcall (HANDLE ProcessHandle(0xffffffff), PROCESSINFOCLAS
 #### 计划列表
 1. 支持多进程、支持64位、更多模块（kener32、user32...） 更多api支持、支持脚本自动拦截并设置参数及返回值
 
+#### 依赖
+1. [qt5.14.1](https://www.qt.io/blog/qt-5.14.1-released)
+2. [simdjson](https://github.com/simdjson/simdjson)
 
-#### 其它 更新日志
+...
+
+#### 其它
 - [下载：v20200426](https://github.com/stonedreamforest/Navy_public/releases/download/v20200426/20200426.rar)
 - [更新日志](https://github.com/stonedreamforest/Navy_public/blob/master/CHANGELOG.md)
 
