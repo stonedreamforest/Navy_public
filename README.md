@@ -4,6 +4,7 @@
 
 # Navy_public
 
+
 #### 使用
 1. 启动`Navy32/64.EXE` 按`alt+a`选择要监控的进程
 ![image](https://user-images.githubusercontent.com/16742566/80297988-25bd0480-87bb-11ea-9357-18460725856e.png)
@@ -195,11 +196,17 @@ NSTATUS result(0x0) __stdcall (HANDLE ProcessHandle(0xffffffff), PROCESSINFOCLAS
 
 
 
-
-
-
-
-
-
 #### 示例
 ![image](https://user-images.githubusercontent.com/16742566/80297627-6a46a100-87b7-11ea-963d-52a59eb95b0a.png)
+
+
+
+#### 使用场景
+1 轻量级自动分析病毒程序调用上下文、游戏反调试实现技术...
+
+
+#### 计划列表
+1. 支持多进程、支持64位、更多模块（kener32、user32...） 更多api支持
+
+
+
