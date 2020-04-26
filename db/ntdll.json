@@ -1,0 +1,462 @@
+{
+    "supportedFunctions": ["NtCreateProcess", "NtQueryInformationProcess"],
+    "NtCreateProcess": {
+        "hasResult": true,
+        "paraCount": 8,
+        "paras": {
+            "para0": {
+                "type": "NSTATUS",
+                "name": "result",
+                "hasPreValue": false
+            },
+            "para1": {
+                "type": "PHANDLE",
+                "name": "ProcessHandle",
+                "hasPreValue": false
+            },
+            "para2": {
+                "type": "ACCESS_MASK",
+                "name": "DesiredAccess",
+                "hasPreValue": false
+            },
+            "para3": {
+                "type": "POBJECT_ATTRIBUTES",
+                "name": "ObjectAttributes",
+                "hasPreValue": false
+            },
+            "para4": {
+                "type": "HANDLE",
+                "name": "ParentProcess",
+                "hasPreValue": false
+            },
+            "para5": {
+                "type": "BOOLEAN",
+                "name": "InheritObjectTable",
+                "hasPreValue": false
+            },
+            "para6": {
+                "type": "HANDLE",
+                "name": "SectionHandle",
+                "hasPreValue": false
+            },
+            "para7": {
+                "type": "HANDLE",
+                "name": "DebugPort",
+                "hasPreValue": false
+            },
+            "para8": {
+                "type": "HANDLE",
+                "name": "ExceptionPort",
+                "hasPreValue": false
+            }
+        }
+    },
+    "NtQueryInformationProcess": {
+        "hasResult": true,
+        "paraCount": 5,
+        "paras": {
+            "para0": {
+                "type": "NSTATUS",
+                "name": "result",
+                "hasPreValue": false
+            },
+            "para1": {
+                "type": "HANDLE",
+                "name": "ProcessHandle",
+                "hasPreValue": false
+            },
+            "para2": {
+                "type": "PROCESSINFOCLASS",
+                "name": "ProcessInformationClass",
+                "hasPreValue": true,
+                "preValues": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100
+                ],
+                "0": {
+                    "value": "ProcessBasicInformation",
+                    "comments": "there is any comments"
+                },
+                "1": {
+                    "value": "ProcessQuotaLimits",
+                    "comments": "这是一个注释"
+                },
+                "2": { "value": "ProcessIoCounters", "comments": "" },
+                "3": { "value": "ProcessVmCounters", "comments": "" },
+                "4": { "value": "ProcessTimes", "comments": "" },
+                "5": { "value": "ProcessBasePriority", "comments": "" },
+                "6": { "value": "ProcessRaisePriority", "comments": "" },
+                "7": { "value": "ProcessDebugPort", "comments": "" },
+                "8": { "value": "ProcessExceptionPort", "comments": "" },
+                "9": { "value": "ProcessAccessToken", "comments": "" },
+                "10": { "value": "ProcessLdtInformation", "comments": "" },
+                "11": { "value": "ProcessLdtSize", "comments": "" },
+                "12": {
+                    "value": "ProcessDefaultHardErrorMode",
+                    "comments": ""
+                },
+                "13": { "value": "ProcessIoPortHandlers", "comments": "" },
+                "14": {
+                    "value": "ProcessPooledUsageAndLimits",
+                    "comments": ""
+                },
+                "15": { "value": "ProcessWorkingSetWatch", "comments": "" },
+                "16": { "value": "ProcessUserModeIOPL", "comments": "" },
+                "17": {
+                    "value": "ProcessEnableAlignmentFaultFixup",
+                    "comments": ""
+                },
+                "18": { "value": "ProcessPriorityClass", "comments": "" },
+                "19": { "value": "ProcessWx86Information", "comments": "" },
+                "20": { "value": "ProcessHandleCount", "comments": "" },
+                "21": { "value": "ProcessAffinityMask", "comments": "" },
+                "22": { "value": "ProcessPriorityBoost", "comments": "" },
+                "23": { "value": "ProcessDeviceMap", "comments": "" },
+                "24": {
+                    "value": "ProcessSessionInformation",
+                    "comments": ""
+                },
+                "25": {
+                    "value": "ProcessForegroundInformation",
+                    "comments": ""
+                },
+                "26": { "value": "ProcessWow64Information", "comments": "" },
+                "27": { "value": "ProcessImageFileName", "comments": "" },
+                "28": {
+                    "value": "ProcessLUIDDeviceMapsEnabled",
+                    "comments": ""
+                },
+                "29": {
+                    "value": "ProcessBreakOnTermination",
+                    "comments": ""
+                },
+                "30": {
+                    "value": "ProcessDebugObjectHandle",
+                    "comments": ""
+                },
+                "31": { "value": "ProcessDebugFlags", "comments": "" },
+                "32": { "value": "ProcessHandleTracing", "comments": "" },
+                "33": { "value": "ProcessIoPriority", "comments": "" },
+                "34": { "value": "ProcessExecuteFlags", "comments": "" },
+                "35": {
+                    "value": "ProcessResourceManagement",
+                    "comments": ""
+                },
+                "36": { "value": "ProcessCookie", "comments": "" },
+                "37": { "value": "ProcessImageInformation", "comments": "" },
+                "38": { "value": "ProcessCycleTime", "comments": "" },
+                "39": { "value": "ProcessPagePriority", "comments": "" },
+                "40": {
+                    "value": "ProcessInstrumentationCallback",
+                    "comments": ""
+                },
+                "41": {
+                    "value": "ProcessThreadStackAllocation",
+                    "comments": ""
+                },
+                "42": {
+                    "value": "ProcessWorkingSetWatchEx",
+                    "comments": ""
+                },
+                "43": {
+                    "value": "ProcessImageFileNameWin32",
+                    "comments": ""
+                },
+                "44": { "value": "ProcessImageFileMapping", "comments": "" },
+                "45": {
+                    "value": "ProcessAffinityUpdateMode",
+                    "comments": ""
+                },
+                "46": {
+                    "value": "ProcessMemoryAllocationMode",
+                    "comments": ""
+                },
+                "47": { "value": "ProcessGroupInformation", "comments": "" },
+                "48": {
+                    "value": "ProcessTokenVirtualizationEnabled",
+                    "comments": ""
+                },
+                "49": {
+                    "value": "ProcessConsoleHostProcess",
+                    "comments": ""
+                },
+                "50": {
+                    "value": "ProcessWindowInformation",
+                    "comments": ""
+                },
+                "51": {
+                    "value": "ProcessHandleInformation",
+                    "comments": ""
+                },
+                "52": { "value": "ProcessMitigationPolicy", "comments": "" },
+                "53": {
+                    "value": "ProcessDynamicFunctionTableInformation",
+                    "comments": ""
+                },
+                "54": {
+                    "value": "ProcessHandleCheckingMode",
+                    "comments": ""
+                },
+                "55": { "value": "ProcessKeepAliveCount", "comments": "" },
+                "56": {
+                    "value": "ProcessRevokeFileHandles",
+                    "comments": ""
+                },
+                "57": {
+                    "value": "ProcessWorkingSetControl",
+                    "comments": ""
+                },
+                "58": { "value": "ProcessHandleTable", "comments": "" },
+                "59": {
+                    "value": "ProcessCheckStackExtentsMode",
+                    "comments": ""
+                },
+                "60": {
+                    "value": "ProcessCommandLineInformation",
+                    "comments": ""
+                },
+                "61": {
+                    "value": "ProcessProtectionInformation",
+                    "comments": ""
+                },
+                "62": { "value": "ProcessMemoryExhaustion", "comments": "" },
+                "63": { "value": "ProcessFaultInformation", "comments": "" },
+                "64": {
+                    "value": "ProcessTelemetryIdInformation",
+                    "comments": ""
+                },
+                "65": {
+                    "value": "ProcessCommitReleaseInformation",
+                    "comments": ""
+                },
+                "66": {
+                    "value": "ProcessDefaultCpuSetsInformation",
+                    "comments": ""
+                },
+                "67": {
+                    "value": "ProcessAllowedCpuSetsInformation",
+                    "comments": ""
+                },
+                "68": { "value": "ProcessSubsystemProcess", "comments": "" },
+                "69": {
+                    "value": "ProcessJobMemoryInformation",
+                    "comments": ""
+                },
+                "70": { "value": "ProcessInPrivate", "comments": "" },
+                "71": {
+                    "value": "ProcessRaiseUMExceptionOnInvalidHandleClose",
+                    "comments": ""
+                },
+                "72": {
+                    "value": "ProcessIumChallengeResponse",
+                    "comments": ""
+                },
+                "73": {
+                    "value": "ProcessChildProcessInformation",
+                    "comments": ""
+                },
+                "74": {
+                    "value": "ProcessHighGraphicsPriorityInformation",
+                    "comments": ""
+                },
+                "75": {
+                    "value": "ProcessSubsystemInformation",
+                    "comments": ""
+                },
+                "76": { "value": "ProcessEnergyValues", "comments": "" },
+                "77": {
+                    "value": "ProcessActivityThrottleState",
+                    "comments": ""
+                },
+                "78": {
+                    "value": "ProcessActivityThrottlePolicy",
+                    "comments": ""
+                },
+                "79": {
+                    "value": "ProcessWin32kSyscallFilterInformation",
+                    "comments": ""
+                },
+                "80": {
+                    "value": "ProcessDisableSystemAllowedCpuSets",
+                    "comments": ""
+                },
+                "81": { "value": "ProcessWakeInformation", "comments": "" },
+                "82": {
+                    "value": "ProcessEnergyTrackingState",
+                    "comments": ""
+                },
+                "83": {
+                    "value": "ProcessManageWritesToExecutableMemory",
+                    "comments": ""
+                },
+                "84": {
+                    "value": "ProcessCaptureTrustletLiveDump",
+                    "comments": ""
+                },
+                "85": {
+                    "value": "ProcessTelemetryCoverage",
+                    "comments": ""
+                },
+                "86": {
+                    "value": "ProcessEnclaveInformation",
+                    "comments": ""
+                },
+                "87": {
+                    "value": "ProcessEnableReadWriteVmLogging",
+                    "comments": ""
+                },
+                "88": {
+                    "value": "ProcessUptimeInformation",
+                    "comments": ""
+                },
+                "89": { "value": "ProcessImageSection", "comments": "" },
+                "90": {
+                    "value": "ProcessDebugAuthInformation",
+                    "comments": ""
+                },
+                "91": {
+                    "value": "ProcessSystemResourceManagement",
+                    "comments": ""
+                },
+                "92": { "value": "ProcessSequenceNumber", "comments": "" },
+                "93": { "value": "ProcessLoaderDetour", "comments": "" },
+                "94": {
+                    "value": "ProcessSecurityDomainInformation",
+                    "comments": ""
+                },
+                "95": {
+                    "value": "ProcessCombineSecurityDomainsInformation",
+                    "comments": ""
+                },
+                "96": { "value": "ProcessEnableLogging", "comments": "" },
+                "97": {
+                    "value": "ProcessLeapSecondInformation",
+                    "comments": ""
+                },
+                "98": {
+                    "value": "ProcessFiberShadowStackAllocation",
+                    "comments": ""
+                },
+                "99": {
+                    "value": "ProcessFreeFiberShadowStackAllocation",
+                    "comments": ""
+                },
+                "100": { "value": "MaxProcessInfoClass", "comments": "" }
+            },
+            "para3": {
+                "type": "PVOID",
+                "name": "ProcessInformation",
+                "hasPreValue": false
+            },
+            "para4": {
+                "type": "ULONG",
+                "name": "ProcessInformationLength",
+                "hasPreValue": false
+            },
+            "para5": {
+                "type": "PULONG",
+                "name": "ReturnLength",
+                "hasPreValue": false
+            }
+        }
+    }
+}
