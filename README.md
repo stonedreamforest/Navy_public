@@ -3,7 +3,7 @@
 </p>
 
 # Navy_public
-
+轻量级自动分析病毒程序调用上下文、游戏反调试实现技术...
 
 #### 使用
 1. 启动`Navy32/64.EXE` 按`alt+a`选择要监控的进程
@@ -200,9 +200,6 @@ NSTATUS result(0x0) __stdcall (HANDLE ProcessHandle(0xffffffff), PROCESSINFOCLAS
 ![image](https://user-images.githubusercontent.com/16742566/80297627-6a46a100-87b7-11ea-963d-52a59eb95b0a.png)
 
 
-
-#### 使用场景
-1 轻量级自动分析病毒程序调用上下文、游戏反调试实现技术...
 
 
 #### 计划列表
