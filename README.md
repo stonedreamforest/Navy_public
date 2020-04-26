@@ -203,7 +203,7 @@ NSTATUS result(0x0) __stdcall (HANDLE ProcessHandle(0xffffffff), PROCESSINFOCLAS
 
 
 #### 计划列表
-1. 支持多进程、支持64位、更多模块（kener32、user32...） 更多api支持
+1. 支持多进程、支持64位、更多模块（kener32、user32...） 更多api支持、支持脚本自动拦截并设置参数及返回值
 
 
 #### 其它 更新日志
