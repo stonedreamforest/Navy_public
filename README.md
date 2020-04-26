@@ -206,4 +206,8 @@ NSTATUS result(0x0) __stdcall (HANDLE ProcessHandle(0xffffffff), PROCESSINFOCLAS
 1. 支持多进程、支持64位、更多模块（kener32、user32...） 更多api支持
 
 
+#### 其它 更新日志
+- [下载：v20200426](https://github.com/stonedreamforest/Navy_public/releases/download/v20200426/20200426.rar)
+- [更新日志](https://github.com/stonedreamforest/Navy_public/blob/master/CHANGELOG.md)
+
 
