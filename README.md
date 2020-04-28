@@ -78,12 +78,12 @@
 
 3.1 *调用前*：未调用`NtQueryInformationProcess`时参数的内容
 ```cpp
-NSTATUS result(无返回值) __stdcall (HANDLE ProcessHandle(0x0), PROCESSINFOCLASS ProcessInformationClass()[], PVOID ProcessInformation(0x18), ULONG ProcessInformationLength(0xfba188))
+NSTATUS result(无返回值) __stdcall (HANDLE ProcessHandle(0xffffffff), PROCESSINFOCLASS ProcessInformationClass(ProcessBasicInformation)[there is any comments], PVOID ProcessInformation(0x695198), ULONG ProcessInformationLength(0x18), PULONG ReturnLength(0x6951b0))
 ```
 
 3.2 *调用后*：调用`NtQueryInformationProcess`后参数的内容
 ```cpp
-NSTATUS result(0x0) __stdcall (HANDLE ProcessHandle(0xffffffff), PROCESSINFOCLASS ProcessInformationClass(ProcessBasicInformation)[there is any comments], PVOID ProcessInformation(0xfba170), ULONG ProcessInformationLength(0x18))
+NSTATUS result(0x0) __stdcall (HANDLE ProcessHandle(0xffffffff), PROCESSINFOCLASS ProcessInformationClass(ProcessBasicInformation)[there is any comments], PVOID ProcessInformation(0x695198), ULONG ProcessInformationLength(0x18), PULONG ReturnLength(0x6951b0))
 ```
 
 
