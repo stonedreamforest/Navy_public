@@ -9,6 +9,9 @@
 1. 启动`Navy32/64.EXE` 按`alt+a`选择要监控的进程
 ![image](https://user-images.githubusercontent.com/16742566/80297988-25bd0480-87bb-11ea-9357-18460725856e.png)
 
+#### 快捷键
+- `ALT + A`: 打开进程列表
+- `CTRL + L`: 清屏
 
 #### json数据库
 1. 示例
@@ -212,7 +215,7 @@ NSTATUS result(0x0) __stdcall (HANDLE ProcessHandle(0xffffffff), PROCESSINFOCLAS
 ...
 
 #### 其它
-- [下载：v20200426](https://github.com/stonedreamforest/Navy_public/releases/download/v20200426/20200426.rar)
+- [下载：v20200428](https://github.com/stonedreamforest/Navy_public/releases/tag/v20200428)
 - [更新日志](https://github.com/stonedreamforest/Navy_public/blob/master/CHANGELOG.md)
 
 
