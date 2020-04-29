@@ -215,7 +215,7 @@ NSTATUS result(0x0) __stdcall (HANDLE ProcessHandle(0xffffffff), PROCESSINFOCLAS
 ...
 
 #### 其它
-- [下载：v20200428](https://github.com/stonedreamforest/Navy_public/releases/tag/v20200428)
+- [下载：v20200429](https://github.com/stonedreamforest/Navy_public/releases/tag/v20200429)
 - [更新日志](https://github.com/stonedreamforest/Navy_public/blob/master/CHANGELOG.md)
 
 
