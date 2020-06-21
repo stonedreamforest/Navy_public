@@ -1,6 +1,10 @@
+![GitHub All Releases](https://img.shields.io/github/downloads/stonedreamforest/Navy_public/total?label=downloads-total&logo=github&style=flat-square)
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/16742566/80297653-a1b54d80-87b7-11ea-8758-9590f5989a33.png">
 </p>
+
+
 
 # Navy_public
 轻量级自动分析病毒程序调用上下文、游戏反调试实现技术...
@@ -209,13 +213,13 @@ NSTATUS result(0x0) __stdcall (HANDLE ProcessHandle(0xffffffff), PROCESSINFOCLAS
 1. 支持多进程、支持64位、更多模块（kener32、user32...） 更多api支持、支持脚本自动拦截并设置参数及返回值
 
 #### 依赖
-1. [qt5.14.1](https://www.qt.io/blog/qt-5.14.1-released)
+1. [qt5.14.2](https://www.qt.io/blog/qt-5.14.2-released)
 2. [simdjson](https://github.com/simdjson/simdjson)
 
 ...
 
 #### 其它
-- [下载：v20200429](https://github.com/stonedreamforest/Navy_public/releases/tag/v20200429)
+- [下载：v20200621](https://github.com/stonedreamforest/Navy_public/releases/tag/v20200429)
 - [更新日志](https://github.com/stonedreamforest/Navy_public/blob/master/CHANGELOG.md)
 
 
